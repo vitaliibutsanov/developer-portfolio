@@ -1,0 +1,25 @@
+@media (max-width: 900px) {
+  .header-inner { flex-wrap: wrap; padding-block: 0.75rem; }
+  .primary-nav { order: 3; width: 100%; overflow-x: auto; padding-bottom: 0.25rem; }
+  .hero-grid,
+  .project-grid,
+  .cat-layout,
+  .split-section { grid-template-columns: 1fr; }
+  .media-grid { grid-template-columns: 1fr 1fr; }
+  .approach-grid,
+  .skills-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .contact-panel { align-items: flex-start; flex-direction: column; }
+}
+
+@media (max-width: 560px) {
+  .container { width: min(calc(100% - 1.25rem), var(--container)); }
+  .section { padding-block: 3.5rem; }
+  .brand span:last-child { display: none; }
+  .language-button { min-width: 2.15rem; padding-inline: 0.4rem; }
+  .hero { min-height: auto; padding-top: 4rem; }
+  .media-grid,
+  .approach-grid,
+  .skills-grid { grid-template-columns: 1fr; }
+  .media-placeholder-large { min-height: 300px; }
+  .footer-inner { align-items: flex-start; flex-direction: column; padding-block: 1.25rem; }
+}
