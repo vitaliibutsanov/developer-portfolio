@@ -20,7 +20,7 @@ window.TRANSLATIONS = {
       tagWindows: "Windows build",
       eyebrow: "Completed project",
       intro: "A 2D desktop platformer that grew into a full Windows game with a multi-stage campaign, custom level editor, localization, performance work and a release pipeline.",
-      promoPlaceholder: "Promotional image will be inserted here from the Cat vs Ghosts showcase.",
+      promoCaption: "Official Cat vs Ghosts promotional artwork.",
       editorTitle: "Custom level editor",
       editorCopy: "Real campaign content is built and revised through custom editor tooling with reusable brushes, object anchors and large-map navigation.",
       performanceTitle: "Rendering and performance work",
@@ -29,8 +29,9 @@ window.TRANSLATIONS = {
       localizationCopy: "English, Polish, Russian and Ukrainian localization plus profiles, saves, campaign progression and settings.",
       releaseTitle: "Windows release pipeline",
       releaseCopy: "PyInstaller packaging, installer integration and separation of development-only profiling tools from the final build.",
-      gameplayPlaceholder: "Gameplay screenshot",
-      editorPlaceholder: "Level editor screenshot / demo",
+      forestCaption: "Stage 1 · Forest gameplay",
+      spaceCaption: "Stage 5 · Space gameplay",
+      editorCaption: "Custom level editor · City overview",
       showcaseCta: "View Cat vs Ghosts showcase"
     },
     bot: {
@@ -90,7 +91,7 @@ window.TRANSLATIONS = {
       tagWindows: "Build Windows",
       eyebrow: "Ukończony projekt",
       intro: "Platformówka 2D na komputery, która rozwinęła się w pełną grę Windows z wieloetapową kampanią, własnym edytorem poziomów, lokalizacją, optymalizacją wydajności i procesem wydania.",
-      promoPlaceholder: "Tutaj zostanie dodana grafika promocyjna z showcase Cat vs Ghosts.",
+      promoCaption: "Oficjalna grafika promocyjna Cat vs Ghosts.",
       editorTitle: "Własny edytor poziomów",
       editorCopy: "Rzeczywista zawartość kampanii jest tworzona i poprawiana we własnym edytorze z wielokrotnego użytku pędzlami, kotwicami obiektów i nawigacją po dużych mapach.",
       performanceTitle: "Renderowanie i wydajność",
@@ -99,8 +100,9 @@ window.TRANSLATIONS = {
       localizationCopy: "Obsługa języka angielskiego, polskiego, rosyjskiego i ukraińskiego oraz profile, zapisy, postęp kampanii i ustawienia.",
       releaseTitle: "Proces wydania Windows",
       releaseCopy: "Pakowanie przez PyInstaller, integracja instalatora i oddzielenie narzędzi profilujących używanych tylko podczas developmentu od wersji końcowej.",
-      gameplayPlaceholder: "Screenshot z gry",
-      editorPlaceholder: "Screenshot / demo edytora poziomów",
+      forestCaption: "Etap 1 · Rozgrywka w lesie",
+      spaceCaption: "Etap 5 · Rozgrywka w kosmosie",
+      editorCaption: "Własny edytor poziomów · Widok miasta",
       showcaseCta: "Zobacz showcase Cat vs Ghosts"
     },
     bot: {
@@ -160,7 +162,7 @@ window.TRANSLATIONS = {
       tagWindows: "Windows build",
       eyebrow: "Завершённый проект",
       intro: "2D desktop-платформер, выросший в полноценную Windows-игру с многоэтапной кампанией, собственным редактором уровней, локализацией, работой над производительностью и release pipeline.",
-      promoPlaceholder: "Здесь будет размещено promotional-изображение из showcase Cat vs Ghosts.",
+      promoCaption: "Официальный promotional-art Cat vs Ghosts.",
       editorTitle: "Собственный редактор уровней",
       editorCopy: "Реальный контент кампании создаётся и дорабатывается через собственный редактор с переиспользуемыми кистями, якорями объектов и навигацией по большим картам.",
       performanceTitle: "Рендеринг и производительность",
@@ -169,8 +171,9 @@ window.TRANSLATIONS = {
       localizationCopy: "Английский, польский, русский и украинский языки, а также профили, сохранения, прогресс кампании и настройки.",
       releaseTitle: "Windows release pipeline",
       releaseCopy: "Сборка через PyInstaller, интеграция установщика и отделение dev-only профилировщиков от финальной версии.",
-      gameplayPlaceholder: "Gameplay screenshot",
-      editorPlaceholder: "Screenshot / demo редактора уровней",
+      forestCaption: "Этап 1 · Лес",
+      spaceCaption: "Этап 5 · Космос",
+      editorCaption: "Собственный редактор уровней · Обзор города",
       showcaseCta: "Открыть showcase Cat vs Ghosts"
     },
     bot: {
@@ -185,13 +188,13 @@ window.TRANSLATIONS = {
     about: {
       eyebrow: "Обо мне",
       title: "Обо мне",
-      copy: "Я разрабатываю личные программные проекты с упором на практическую функциональность, итеративную разработку, отладку, производительность и доведение результата до пригодного к использованию состояния."
+      copy: "Я разрабатываю личные программные проекты с упором на практическую функциональность, пошаговую разработку, отладку, производительность и доведение результата до пригодного к использованию состояния."
     },
     skills: { eyebrow: "Используются в реальных проектах", title: "Навыки и технологии" },
     approach: {
       eyebrow: "Как я работаю",
       title: "Подход к разработке",
-      iterativeTitle: "Итеративная разработка",
+      iterativeTitle: "Разработка небольшими этапами",
       iterativeCopy: "Делаю небольшие проверяемые шаги и тестирую каждое изменение перед следующим.",
       profileTitle: "Сначала измерять, потом оптимизировать",
       profileCopy: "Ищу реальные узкие места и использую данные профилирования для работы над производительностью.",
@@ -230,7 +233,7 @@ window.TRANSLATIONS = {
       tagWindows: "Windows build",
       eyebrow: "Завершений проєкт",
       intro: "2D desktop-платформер, що виріс у повноцінну Windows-гру з багатоетапною кампанією, власним редактором рівнів, локалізацією, роботою над продуктивністю та release pipeline.",
-      promoPlaceholder: "Тут буде розміщено promotional-зображення з showcase Cat vs Ghosts.",
+      promoCaption: "Офіційний promotional-art Cat vs Ghosts.",
       editorTitle: "Власний редактор рівнів",
       editorCopy: "Реальний контент кампанії створюється та доопрацьовується через власний редактор із багаторазовими пензлями, якорями об'єктів і навігацією великими мапами.",
       performanceTitle: "Рендеринг і продуктивність",
@@ -239,8 +242,9 @@ window.TRANSLATIONS = {
       localizationCopy: "Англійська, польська, російська та українська мови, а також профілі, збереження, прогрес кампанії й налаштування.",
       releaseTitle: "Windows release pipeline",
       releaseCopy: "Збірка через PyInstaller, інтеграція інсталятора та відокремлення dev-only інструментів профілювання від фінальної версії.",
-      gameplayPlaceholder: "Gameplay screenshot",
-      editorPlaceholder: "Screenshot / demo редактора рівнів",
+      forestCaption: "Етап 1 · Ліс",
+      spaceCaption: "Етап 5 · Космос",
+      editorCaption: "Власний редактор рівнів · Огляд міста",
       showcaseCta: "Відкрити showcase Cat vs Ghosts"
     },
     bot: {

@@ -115,6 +115,14 @@
 .project-card-featured { border-color: rgb(103 216 255 / 55%); }
 .project-card-muted { background: linear-gradient(rgb(16 21 28 / 90%), rgb(16 21 28 / 90%)), repeating-linear-gradient(90deg, transparent 0 24px, rgb(255 255 255 / 3%) 24px 25px); }
 
+.project-card-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  object-fit: cover;
+}
+
 .status { width: fit-content; margin-bottom: var(--space-3); font-size: 0.8rem; font-weight: 800; }
 .status-complete { color: var(--color-success); }
 .status-progress { color: var(--color-warning); }
@@ -144,6 +152,32 @@
 
 .media-placeholder-large { min-height: 430px; }
 .media-placeholder figcaption { max-width: 30ch; color: var(--color-muted); }
+
+.project-media {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-bg);
+}
+
+.project-media img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.project-media-hero img {
+  aspect-ratio: 3 / 2;
+}
+
+.media-caption {
+  margin: 0;
+  padding: 0.7rem 0.9rem;
+  color: var(--color-muted);
+  font-size: 0.85rem;
+}
+
 .feature-list { display: grid; gap: var(--space-3); }
 .feature-list article,
 .approach-grid article { padding: var(--space-4); }
@@ -160,6 +194,16 @@
 
 .audit-placeholder strong { color: var(--color-warning); }
 .skills-grid li { padding: var(--space-3) var(--space-4); border-radius: var(--radius-md); }
+
+.contact-panel {
+  padding: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+.contact-panel > div {
+  flex: 1 1 auto;
+}
+
+.contact-panel .button { flex-shrink: 0; }
 
 .site-footer {
   border-top: 1px solid var(--color-border);

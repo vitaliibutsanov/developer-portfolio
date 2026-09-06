@@ -8,7 +8,11 @@
   .media-grid { grid-template-columns: 1fr 1fr; }
   .approach-grid,
   .skills-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .contact-panel { align-items: flex-start; flex-direction: column; }
+  .contact-panel {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: var(--space-4);
+  }
 }
 
 @media (max-width: 560px) {
