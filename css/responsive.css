@@ -5,6 +5,7 @@
   .project-grid,
   .cat-layout,
   .split-section { grid-template-columns: 1fr; }
+  .cat-layout { padding: var(--space-3); }
   .media-grid { grid-template-columns: 1fr 1fr; }
   .approach-grid,
   .skills-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -24,6 +25,10 @@
   .media-grid,
   .approach-grid,
   .skills-grid { grid-template-columns: 1fr; }
+  .media-grid .project-media:last-child { grid-column: auto; }
+  .project-card-featured > div { padding: var(--space-4) var(--space-4) 0; }
+  .project-card-featured > .tag-list { padding: var(--space-3) var(--space-4) 0; }
+  .project-card-featured > .text-link { margin: var(--space-4); }
   .media-placeholder-large { min-height: 300px; }
   .footer-inner { align-items: flex-start; flex-direction: column; padding-block: 1.25rem; }
 }
