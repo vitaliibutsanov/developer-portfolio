@@ -226,6 +226,22 @@
   aspect-ratio: 3 / 2;
 }
 
+.demo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 360px), 1fr));
+  gap: var(--space-3);
+  margin-top: var(--space-5);
+}
+
+.project-demo video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  background: #000;
+  object-fit: cover;
+}
+
 .media-caption {
   margin: 0;
   padding: 0.8rem 1rem;

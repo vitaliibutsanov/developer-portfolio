@@ -32,6 +32,8 @@ window.TRANSLATIONS = {
       forestCaption: "Stage 1 · Forest gameplay",
       spaceCaption: "Stage 5 · Space gameplay",
       editorCaption: "Custom level editor · City overview",
+      gameplayDemoCaption: "Gameplay demo",
+      editorDemoCaption: "Level editor demo",
       showcaseCta: "View Cat vs Ghosts showcase"
     },
     bot: {
@@ -103,6 +105,8 @@ window.TRANSLATIONS = {
       forestCaption: "Etap 1 · Rozgrywka w lesie",
       spaceCaption: "Etap 5 · Rozgrywka w kosmosie",
       editorCaption: "Własny edytor poziomów · Widok miasta",
+      gameplayDemoCaption: "Demo rozgrywki",
+      editorDemoCaption: "Demo edytora poziomów",
       showcaseCta: "Zobacz showcase Cat vs Ghosts"
     },
     bot: {
@@ -174,6 +178,8 @@ window.TRANSLATIONS = {
       forestCaption: "Этап 1 · Лес",
       spaceCaption: "Этап 5 · Космос",
       editorCaption: "Собственный редактор уровней · Обзор города",
+      gameplayDemoCaption: "Демонстрация игрового процесса",
+      editorDemoCaption: "Демонстрация редактора уровней",
       showcaseCta: "Открыть showcase Cat vs Ghosts"
     },
     bot: {
@@ -245,6 +251,8 @@ window.TRANSLATIONS = {
       forestCaption: "Етап 1 · Ліс",
       spaceCaption: "Етап 5 · Космос",
       editorCaption: "Власний редактор рівнів · Огляд міста",
+      gameplayDemoCaption: "Демонстрація ігрового процесу",
+      editorDemoCaption: "Демонстрація редактора рівнів",
       showcaseCta: "Відкрити showcase Cat vs Ghosts"
     },
     bot: {
