@@ -306,3 +306,120 @@
   color: var(--color-muted);
   font-size: 0.9rem;
 }
+
+/* Hero clarity */
+.hero {
+  position: relative;
+  min-height: 68vh;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.hero::before,
+.hero::after {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  content: "";
+}
+
+.hero::before {
+  background-image:
+    linear-gradient(rgb(103 216 255 / 5%) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(103 216 255 / 5%) 1px, transparent 1px);
+  background-size: 48px 48px;
+  opacity: 0.48;
+}
+
+.hero::after {
+  background:
+    radial-gradient(circle at 18% 34%, rgb(103 216 255 / 12%), transparent 34%),
+    radial-gradient(circle at 84% 54%, rgb(103 216 255 / 8%), transparent 28%);
+}
+
+.hero-grid {
+  position: relative;
+  z-index: 1;
+  grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
+  gap: clamp(var(--space-5), 7vw, 6rem);
+}
+
+.hero h1 {
+  max-width: 14ch;
+  margin-bottom: var(--space-4);
+  font-size: clamp(2.9rem, 5vw, 4.8rem);
+  letter-spacing: -0.048em;
+}
+
+.hero .eyebrow {
+  margin-bottom: var(--space-3);
+}
+
+.hero-copy {
+  max-width: 62ch;
+  margin-bottom: var(--space-5);
+  font-size: clamp(1rem, 1.6vw, 1.16rem);
+}
+
+.hero-panel {
+  gap: 0;
+  padding: var(--space-3) var(--space-5);
+  border-color: rgb(103 216 255 / 24%);
+  background:
+    radial-gradient(circle at 90% 0%, rgb(103 216 255 / 10%), transparent 40%),
+    rgb(16 21 28 / 92%);
+  box-shadow: 0 24px 70px rgb(0 0 0 / 24%);
+}
+
+.hero-panel span {
+  display: flex;
+  align-items: center;
+  min-height: 3.4rem;
+  border-bottom: 1px solid rgb(255 255 255 / 7%);
+  color: var(--color-text);
+  font-size: 0.9rem;
+}
+
+.hero-panel span:last-child {
+  border-bottom: 0;
+}
+
+.hero-panel span:first-child {
+  color: var(--color-accent);
+}
+
+.hero-panel span::before {
+  flex: 0 0 auto;
+  margin-right: 0.35rem;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    min-height: auto;
+  }
+
+  .hero-grid {
+    gap: var(--space-5);
+  }
+
+  .hero-panel {
+    max-width: 680px;
+  }
+}
+
+@media (max-width: 560px) {
+  .hero h1 {
+    max-width: 14ch;
+    font-size: clamp(2.6rem, 12vw, 3.7rem);
+  }
+
+  .hero-panel {
+    padding: var(--space-2) var(--space-4);
+  }
+
+  .hero-panel span {
+    min-height: 3.15rem;
+    font-size: 0.84rem;
+  }
+}

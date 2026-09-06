@@ -2,14 +2,14 @@ window.TRANSLATIONS = {
   en: {
     nav: { projects: "Projects", about: "About", skills: "Skills", contact: "Contact" },
     hero: {
-      eyebrow: "Developer Portfolio",
-      title: "Building practical software, tools and games.",
-      copy: "Personal projects developed from working prototypes into finished, usable software.",
+      eyebrow: "Vitalii Butsanov · Developer Portfolio",
+      title: "Developer portfolio built around real projects.",
+      copy: "Completed and in-development projects focused on practical software, tools, games and automation.",
       projectsCta: "View projects",
-      focusGames: "Games",
-      focusTools: "Tools",
-      focusAutomation: "Automation",
-      focusRealProjects: "Real projects"
+      focusGames: "Cat vs Ghosts · Completed",
+      focusTools: "Trading Bot · Technical audit",
+      focusAutomation: "Portfolio website · Current project",
+      focusRealProjects: "GitHub · Public repositories"
     },
     projects: { eyebrow: "Selected work", title: "Featured Projects" },
     common: { viewProject: "View Project →" },
@@ -75,14 +75,14 @@ window.TRANSLATIONS = {
   pl: {
     nav: { projects: "Projekty", about: "O mnie", skills: "Technologie", contact: "Kontakt" },
     hero: {
-      eyebrow: "Portfolio developera",
-      title: "Tworzę praktyczne oprogramowanie, narzędzia i gry.",
-      copy: "Osobiste projekty rozwijane od działających prototypów do ukończonego, użytecznego oprogramowania.",
+      eyebrow: "Vitalii Butsanov · Portfolio developera",
+      title: "Portfolio developera oparte na realnych projektach.",
+      copy: "Ukończone i rozwijane projekty skupione na praktycznym oprogramowaniu, narzędziach, grach i automatyzacji.",
       projectsCta: "Zobacz projekty",
-      focusGames: "Gry",
-      focusTools: "Narzędzia",
-      focusAutomation: "Automatyzacja",
-      focusRealProjects: "Realne projekty"
+      focusGames: "Cat vs Ghosts · Ukończony",
+      focusTools: "Trading Bot · Audyt techniczny",
+      focusAutomation: "Strona portfolio · Aktualny projekt",
+      focusRealProjects: "GitHub · Publiczne repozytoria"
     },
     projects: { eyebrow: "Wybrane realizacje", title: "Główne projekty" },
     common: { viewProject: "Zobacz projekt →" },
@@ -148,14 +148,14 @@ window.TRANSLATIONS = {
   ru: {
     nav: { projects: "Проекты", about: "Обо мне", skills: "Навыки", contact: "Контакты" },
     hero: {
-      eyebrow: "Developer Portfolio",
-      title: "Создаю практичные программы, инструменты и игры.",
-      copy: "Личные проекты, которые развиваются от рабочих прототипов до законченного и пригодного к использованию ПО.",
+      eyebrow: "Vitalii Butsanov · Developer Portfolio",
+      title: "Портфолио разработчика на реальных проектах.",
+      copy: "Здесь собраны завершённые и развиваемые проекты: практичные программы, инструменты, игры и автоматизация.",
       projectsCta: "Смотреть проекты",
-      focusGames: "Игры",
-      focusTools: "Инструменты",
-      focusAutomation: "Автоматизация",
-      focusRealProjects: "Реальные проекты"
+      focusGames: "Cat vs Ghosts · Завершён",
+      focusTools: "Trading Bot · Технический аудит",
+      focusAutomation: "Сайт-портфолио · Текущий проект",
+      focusRealProjects: "GitHub · Публичные репозитории"
     },
     projects: { eyebrow: "Избранные работы", title: "Основные проекты" },
     common: { viewProject: "Смотреть проект →" },
@@ -221,14 +221,14 @@ window.TRANSLATIONS = {
   uk: {
     nav: { projects: "Проєкти", about: "Про мене", skills: "Навички", contact: "Контакти" },
     hero: {
-      eyebrow: "Developer Portfolio",
-      title: "Створюю практичні програми, інструменти та ігри.",
-      copy: "Особисті проєкти, що розвиваються від робочих прототипів до завершеного й придатного до використання ПЗ.",
+      eyebrow: "Vitalii Butsanov · Developer Portfolio",
+      title: "Портфоліо розробника на реальних проєктах.",
+      copy: "Тут зібрані завершені й активні проєкти: практичні програми, інструменти, ігри та автоматизація.",
       projectsCta: "Переглянути проєкти",
-      focusGames: "Ігри",
-      focusTools: "Інструменти",
-      focusAutomation: "Автоматизація",
-      focusRealProjects: "Реальні проєкти"
+      focusGames: "Cat vs Ghosts · Завершено",
+      focusTools: "Trading Bot · Технічний аудит",
+      focusAutomation: "Сайт-портфоліо · Поточний проєкт",
+      focusRealProjects: "GitHub · Публічні репозиторії"
     },
     projects: { eyebrow: "Вибрані роботи", title: "Основні проєкти" },
     common: { viewProject: "Переглянути проєкт →" },
